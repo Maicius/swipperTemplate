@@ -51,12 +51,12 @@ class Slide extends Component {
     };
     const styles = {
       section1: {
-        backgroundImage: `url(http://githubreport.oss-cn-beijing.aliyuncs.com/bg1.jpg)`,
-        backgroundSize: '100%',
+        background: `url(./back.jpg) no-repeat top center`,
+        backgroundSize: 'cover',
       },
       section: {
-        backgroundImage: `url(http://githubreport.oss-cn-beijing.aliyuncs.com/bg2.jpg)`,
-        backgroundSize: '100%',
+        background: `url(./back.jpg) no-repeat top center`,
+        backgroundSize: 'cover',
       },
       fadeInUp1s: {
         animation: 'x 1s',
